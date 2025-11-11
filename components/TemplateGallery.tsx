@@ -59,7 +59,10 @@ const TemplateGallery: React.FC<TemplateGalleryProps> = ({ onSelectTemplate }) =
               className="bg-gray-800 border border-purple-800 p-4 rounded-lg flex flex-col justify-between hover:border-purple-600 transition-all duration-300"
             >
               <div>
-                <span className="text-xs bg-purple-800 text-purple-200 px-2 py-1 rounded-full">{template.category}</span>
+                <div className="flex justify-between items-start">
+                  <span className="text-xs bg-purple-800 text-purple-200 px-2 py-1 rounded-full">{template.category}</span>
+                  <img src={`/templates/template_${template.iconId}.svg`} alt="" className="w-6 h-6 text-purple-400" />
+                </div>
                 <h4 className="font-bold text-white mt-2">{template.title}</h4>
                 <p className="text-sm text-gray-400 mt-2 line-clamp-3">
                   {template.jobDescription}

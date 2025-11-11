@@ -16,6 +16,7 @@ export interface CoverLetterTemplate {
   id: string;
   title: string;
   category: 'Software Development' | 'Marketing & Sales' | 'Creative & Design' | 'Student & New Grad' | 'Career Change' | 'Professional & Corporate' | 'Healthcare';
+  iconId: number;
   // Below fields map to FormData
   jobDescription: string;
   companyName: string;
