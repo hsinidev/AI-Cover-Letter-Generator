@@ -1,0 +1,5 @@
+{
+  "name": "AI Cover Letter Generator",
+  "description": "A modern application that generates a personalized, professional cover letter tailored to a specific job description and user résumé data, powered by the Gemini AI Model.",
+  "requestFramePermissions": []
+}
